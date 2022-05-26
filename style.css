@@ -241,9 +241,15 @@ section{
 }
 
 .about .row .box-container .box h3{
-    font-size: 5rem;
+    font-size: 5rem;    
     color:var(--black);
     line-height: 1.1;
+}
+
+.about .row .box-container .box i{
+    font-size:4rem;
+    padding-bottom: 1rem;
+    color:var(--black);
 }
 
 .about .row .box-container .box p{
