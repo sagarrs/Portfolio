@@ -24,3 +24,7 @@ const rtt = document.querySelector('#rtt').addEventListener('click', function (e
 const gordian = document.querySelector('#gordian').addEventListener('click', function (event) {
     window.open("https://play.google.com/store/apps/details?id=com.gordian");
 });
+
+const git = document.querySelector('#git').addEventListener('click', function (event) {
+    window.open("https://github.com/sagarrs");
+});
