@@ -481,8 +481,18 @@ section{
     color:var(--black);
 }
 
-.credits span{
+/* .credits span{
     color: var(--green);
+} */
+
+.credits span{
+    background-color: #111;
+    color:#111;
+}
+
+.credits span:hover{
+    color: var(--green);
+    background-color: var(--bg-color);
 }
 
 /* media queries */
