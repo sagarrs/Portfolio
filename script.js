@@ -25,6 +25,10 @@ const gordian = document.querySelector('#gordian').addEventListener('click', fun
     window.open("https://play.google.com/store/apps/details?id=com.gordian");
 });
 
+const adminPanel = document.querySelector('#adminPanel').addEventListener('click', function (event) {
+    window.open("https://sagarrs.github.io/React-admin-panel/");
+});
+
 const git = document.querySelector('#git').addEventListener('click', function (event) {
     window.open("https://github.com/sagarrs");
 });
