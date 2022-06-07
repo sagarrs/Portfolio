@@ -204,17 +204,19 @@
 
         <section class="contact" id="contact">
             <h1 class="heading"><span>contact</span>me</h1>
-
-            <form action="">
-                <input type="text" placeholder="your name" class="box">
-                <input type="email" placeholder="your email" class="box">
-                <input type="text" placeholder="subject" class="box">
-                <textarea name="" class="box" id="" cols="30" rows="10"></textarea>
-                <input type="submit" class="btn" value="send message">
+            <h1 class="alert" id="alert"><span>Your message has been sent</h1>
+            <form action="" id="contactForm">
+                <input type="text" id="name" name="name" placeholder="your name" class="box">
+                <input type="email" id="email" name="email" placeholder="your email" class="box">
+                <input type="text" id="subject" name="subject" placeholder="subject" class="box">
+                <textarea id="description" name="description" class="box" id="" cols="30" rows="10"></textarea>
+                <input type="submit" id="submit" name="submit" class="btn" value="send message">
             </form>
         </section>
 
         <div class="credits">created by <span>you know who</span> | all rights reserved</div>
 
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
     </body>
 </html>
