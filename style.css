@@ -75,6 +75,15 @@ section{
     padding-bottom: 2rem;
 }
 
+.alert{
+    text-align: center;
+    font-size: 2rem;
+    color:var(--black);
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    display: none;
+}
+
 .heading span{
     color:var(--green);
     text-transform: uppercase;
